@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP PROJECT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d4f61bab15.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d4f61bab15.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+    }
+    </style>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark position-fixed top-0" style="width:100%; z-index: 10;">
+        <div class="container-fluid"> <!--container fluid gurathu full width-->
+            <a class="navbar-brand text-light" href="#"><i class="fa-brands fa-bootstrap"></i>Bootstrap</a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end" style="width:100%">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+
+    <!--Home-->
+    <div class="container-fluid p-5 d-flex bg-dark text-light flex-column flex-lg-row">
+        <div class="p-5 text-light">
+            <h1>Become a <span class="text-warning">Web developer</span></h1>
+            <h4>Mobile-First, Responsive Design</h4>
+            <h6>I will create a responsive web site using Bootstrap</h6>
+            <button type="button" class="btn btn-danger">Contact Us</button>
+        </div>
+        <div class="p-5">
+            <img src="./picture.jpg" class="img-fluid" alt="image" width="550px" height="450px">
+        </div>
+    </div>
+
+
+    <div class="container-fluid p-5 d-flex justify-content-between align-items-center flex-column flex-lg-row gap-3">
+        <h5>Sign up to know more</h5>
+
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+
+    </div>
+
+
+    <div
+        class="container-fluid p-5 d-flex justify-content-center align-items-center gap-5 text-center flex-column flex-lg-row">
+        <div class="card p-5 bg-dark text-light">
+            <div class="card-body">
+                <h1><i class="fa-solid fa-laptop"></i></h1>
+                <h4>Web Design</h4>
+                <p class="card-text">We can reduce the css style using bootstrap and we can easily design for responsive
+                    for web page</p>
+                <button type="button" class="btn btn-primary">Read More</button>
+            </div>
+        </div>
+
+
+
+
+        <div class="card p-5 bg-dark text-light">
+            <div class="card-body">
+                <h1><i class="fa-solid fa-user"></i></h1>
+                <h4>Web Design</h4>
+                <p class="card-text">We can reduce the css style using bootstrap and we can easily design for responsive
+                    for web page</p>
+                <button type="button" class="btn btn-primary">Read More</button>
+            </div>
+        </div>
+
+
+
+        <div class="card p-5 bg-dark text-light">
+            <div class="card-body">
+                <h1><i class="fa-solid fa-user-group"></i></h1>
+                <h4>Web Design</h4>
+                <p class="card-text">We can reduce the css style using bootstrap and we can easily design for responsive
+                    for web page</p>
+                <button type="button" class="btn btn-primary">Read More</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid p-0 p-lg-5 d-flex flex-column flex-lg-row">
+        <div class="p-0 p-lg-5 d-flex justify-content-center align-items-center">
+            <img src="./person.jpg" alt="image" width="400" height="400" >
+        </div>
+        <div class="p-5">
+            <h1>Learn the basics</h1>
+            <p>Web development is the building and maintenance of websites; it’s the work that happens behind the scenes
+                to make a website look great, work fast and perform well with a seamless user experience. Web
+                development skills are in high demand worldwide and well paid too – making development a great career
+                option. It is one of the easiest accessible higher paid fields as you do not need a traditional
+                university degree to become qualified.</p>
+            <button type="button" class="btn btn-danger">Read More</button>
+        </div>
+    </div>
+
+    <div class="container-fluid p-3 bg-primary text-center text-light flex-column flex-lg-row">
+        <h1>Our Interation</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit amet deleniti dolores vitae quisquam
+            dolorem? Quaerat molestiae dolorum odio non officia molestias doloremque voluptas rem, excepturi
+            perspiciatis repellat minima ratione.</p>
+        <div class="d-flex justify-content-center align-items-center flex-column flex-lg-row">
+
+            <div class="card bg-secondary p-5 border-4 border-light">
+                <img src="./gallery11.jpg" alt="image" width="150" height="150" class="rounded-circle mx-auto">
+                <h3>Olivia</h3>
+                <p>This is a wider card with supporting text below as a natural lead-in to additional content. This
+                    content is a little bit longer.</p>
+                <h1>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-github"></i>
+                </h1>
+            </div>
+            <div class="card bg-secondary p-5 border-4 border-light">
+                <img src="./gallery9.jpg" alt="image" width="150" height="150" class="rounded-circle mx-auto">
+                <h3>Darren</h3>
+                <p>This is a wider card with supporting text below as a natural lead-in to additional content. This
+                    content is a little bit longer.</p>
+                <h1>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-github"></i>
+                </h1>
+            </div>
+            <div class="card bg-secondary p-5 border-4 border-light">
+                <img src="./gallery8.jpg" alt="image" width="150" height="150" class="rounded-circle mx-auto">
+                <h3>Amelia</h3>
+                <p>This is a wider card with supporting text below as a natural lead-in to additional content. This
+                    content is a little bit longer.</p>
+                <h1>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-github"></i>
+                </h1>
+            </div>
+            <div class="card bg-secondary p-5 border-4 border-light">
+                <img src="./gallery10.jpg" alt="image" width="150" height="150" class="rounded-circle mx-auto">
+                <h3>Riley</h3>
+                <P>This is a wider card with supporting text below as a natural lead-in to additional content. This
+                    content is a little bit longer.</P>
+                <h1>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-github"></i>
+                </h1>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+        <style>
+    footer {
+      background: #fff;
+      padding: 40px 0;
+      border-top: 1px solid #ddd;
+    }
+    .footer-links a {
+      color: #000;
+      text-decoration: underline;
+      display: block;
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+    .footer-heading {
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .social-icons a {
+      color: #000;
+      margin: 0 10px;
+      font-size: 18px;
+    }
+    .subscribe-box input {
+      border-radius: 4px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      width: 250px;
+    }
+  </style>
+</head>
+<body>
+
+<footer class="text-center">
+  <!-- Social Icons -->
+  <div class="social-icons mb-3">
+    <a href="#"><i class="bi bi-facebook"></i></a>
+    <a href="#"><i class="bi bi-twitter"></i></a>
+    <a href="#"><i class="bi bi-google"></i></a>
+    <a href="#"><i class="bi bi-instagram"></i></a>
+    <a href="#"><i class="bi bi-linkedin"></i></a>
+    <a href="#"><i class="bi bi-github"></i></a>
+  </div>
+
+  <!-- Subscribe -->
+  <div class="subscribe-box mb-3">
+    <strong>Sign up to know more details</strong>
+    <div class="d-flex justify-content-center mt-2">
+      <input type="email" placeholder="Enter your Email address">
+      <button class="btn btn-outline-dark ms-2">Subscribe</button>
+    </div>
+  </div>
+
+  <!-- Description -->
+  <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat
+    quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta,
+    aliquam sequi voluptate quas.</p>
+<!-- Footer Links -->
+  <div class="container">
+    <div class="row text-start">
+      <div class="col-md-3 footer-links">
+        <div class="footer-heading">SHOPPING ONLINE</div>
+        <a href="#">frequently asked questions</a>
+        <a href="#">where we deliver?</a>
+        <a href="#">delivery</a>
+        <a href="#">pricing</a>
+      </div>
+      <div class="col-md-3 footer-links">
+        <div class="footer-heading">GIT CARDS</div>
+        <a href="#">frequently asked questions</a>
+        <a href="#">delivery and payment</a>
+        <a href="#">activate the card</a>
+        <a href="#">rules</a>
+      </div>
+      <div class="col-md-3 footer-links">
+        <div class="footer-heading">COMPANY</div>
+        <a href="#">buy a gift card</a>
+        <a href="#">our history</a>
+        <a href="#">return me</a>
+        <a href="#">contact</a>
+      </div>
+      <div class="col-md-3 footer-links">
+        <div class="footer-heading">DIAMOND CLUB</div>
+        <a href="#">about program</a>
+        <a href="#">registration</a>
+        <a href="#">application</a>
+        <a href="#">rules</a>
+      </div>
+ </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="mt-4">
+    © 2020 Copyright: <a href="#" class="fw-bold text-dark">udhayakumar Bootstrap.com</a>
+  </div>
+</footer>
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</body>
+
+</html>
